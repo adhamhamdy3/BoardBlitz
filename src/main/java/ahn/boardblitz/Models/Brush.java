@@ -8,12 +8,12 @@ public class Brush {
     private boolean eraserMode = false;
 
     // getters & setters
-    double getRadius() { return radius; }
-    void setRadius(double radius) { this.radius = radius; }
+    public double getRadius() { return radius; }
+    public void setRadius(double radius) { this.radius = radius; }
 
-    Color getColor() { return color; }
-    void setColor(Color color) { this.color = color; }
+    public Color getColor() { return color; }
+    public void setColor(Color color) { this.color = color; }
 
-    boolean isEraserMode() { return eraserMode; }
-    void setEraserMode(boolean eraserMode) { this.eraserMode = eraserMode; }
+    public boolean isEraserMode() { return eraserMode; }
+    public void setEraserMode(boolean eraserMode) { this.eraserMode = eraserMode; }
 }
