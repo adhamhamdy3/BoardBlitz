@@ -1,11 +1,10 @@
-package ahn.boardblitz.Controllers;
+package ahn.boardblitz.views;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 
-public class BoardController {
-
+public class BoardView {
     // menu bar buttons
     public MenuItem newBoardMenuItem;
     public MenuItem openBoardMenuItem;
@@ -34,8 +33,5 @@ public class BoardController {
     @FXML
     public void initialize() {}
 
-    @FXML
-    public void drawPoint() {
-
-    }
+    public Button getUndoButton() { return undoButton; }
 }

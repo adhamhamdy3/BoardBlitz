@@ -11,6 +11,7 @@ module ahn.boardblitz {
     requires eu.hansolo.tilesfx;
 
     opens ahn.boardblitz to javafx.fxml;
-    opens ahn.boardblitz.Controllers to javafx.fxml;
+    opens ahn.boardblitz.controllers to javafx.fxml;
+    opens ahn.boardblitz.views to javafx.fxml;
     exports ahn.boardblitz;
 }

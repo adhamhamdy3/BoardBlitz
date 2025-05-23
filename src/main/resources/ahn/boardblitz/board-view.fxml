@@ -20,7 +20,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 
-<AnchorPane minHeight="600.0" minWidth="800.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ahn.boardblitz.Controllers.BoardController">
+<AnchorPane minHeight="600.0" minWidth="800.0" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ahn.boardblitz.views.BoardView">
     <children>
         <VBox layoutX="-2.0" prefHeight="768.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
@@ -191,7 +191,7 @@
                 </HBox>
 
                 <!-- drawing canvas area -->
-                <Pane fx:id="boardPane" onMouseClicked="#drawPoint" onMouseMoved="#drawPoint" style="-fx-background-color: white;" VBox.vgrow="ALWAYS" />
+                <Pane fx:id="boardPane" style="-fx-background-color: white;" VBox.vgrow="ALWAYS" />
             </children>
         </VBox>
     </children>

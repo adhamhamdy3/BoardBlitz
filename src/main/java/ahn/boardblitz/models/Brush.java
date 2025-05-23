@@ -1,4 +1,4 @@
-package ahn.boardblitz.Models;
+package ahn.boardblitz.models;
 
 import javafx.scene.paint.Color;
 
