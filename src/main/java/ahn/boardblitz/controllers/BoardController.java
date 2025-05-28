@@ -14,10 +14,19 @@ public class BoardController {
         boardView.getUndoButton().setOnAction(e -> {
             updateView();
         });
+
+        boardView.getBoardColorPicker().setOnAction(e -> {
+           boardModel.setBoardColor(boardView.getBoardColorPicker().getValue());
+           updateBoardColor();
+        });
     }
 
     public void updateView() {
         System.out.println("Undo button clicked");
+    }
+
+    public void updateBoardColor() {
+        boardView.updateBoardColor(boardModel.getBoardColor());
     }
 
 }
